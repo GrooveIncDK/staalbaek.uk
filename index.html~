@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Staalbaek LTD</title>
+    <style>
+        body { margin: 0;
+            background-color: #fff;}
+        ul.topnav {
+            list-style-type: none;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        ul.topnav li {float: left;}
+
+        ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+        ul.topnav li a.active {color: #04AA6D;}
+
+        ul.topnav li.right {float: right;}
+
+       ul.topnav li  {
+            color: #fff;
+            font-family: "GDS Transport",arial,sans-serif;
+            font-size: 1.1875rem;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 600px) {
+        ul.topnav li.right, 
+        ul.topnav li {float: none;}
+        }
+
+        footer {
+            width: 100%;
+            background-color: transparent;
+            text-align: center;
+            top:650px;
+        }
+
+        footer img {
+            width:50px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+        <ul class="topnav">
+            <li class="left"><a class="active" href="#home">Home</a></li>
+            <li class="right"><a href="about.html">About</a></li>
+            <li class="right"><a href="contact.html">Contact</a></li>
+        </ul>
+      
+      <div style="padding:0 16px; ">
+        <img  class="hest p-1 img-cen"src="images/temp-logo SB Ltd.png"/><br/>
+        <div class="text-center t-big">Staalbaek LTD</div><br/>
+        <div class="text-center t-big">The homes of</div><br/><br/>
+        <a href="https://www.yourfootprint.uk"><img class="hest p-1 img-cen" src="images/logoyf.svg" /></a>
+      </div>
+
+
+      <footer>
+        <a href="https://www.facebook.com/people/Your-Footprint-Landbrug/100087959150573/"> <img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/your_footprint_landbrug/?igshid=YmMyMTA2M2Y"> <img src="images/instagram.png"></a>
+        <a href="https://www.linkedin.com/company/your-footprint-landbrug/"> <img src="images/linkedin.png"></a>
+      </footer>
+
+    
+
+                <!--<div class="container">
+                        <div class="d-flex justify-content-between pt-5">
+                            <a class="t-big c-color" href="about.html">About</a>
+                            <a class="t-big c-color" href="contact.html">Contact</a>
+                        </div>
+
+                        <div class="text-center p-3 t-big">Staalbaek LTD</div>
+                        <img class="hest p-5 img-cen" src="images/hest.png">
+                        <div class="text-center p-3 t-big">Owner of</div>
+                        <a href="www.yourfootprint.uk"><img class="img-cen c-logo" src="images/logoyf.svg"></a>
+
+                        <div class="d-flex justify-content-end pt-5">
+                            <div class="t-big">Social Media</div>
+
+                            <div class="d-flex justify-content-end pt-5">
+                                <a href="www.facebook.dk"> <img src="images/facebook.png"></a>
+                                <a href="www.instagram.dk"> <img src="images/instagram.png"></a>
+                                <a href="www.linkedin.dk"> <img src="images/linkedin.png"></a>
+                            </div>
+
+                        </div>
+                        </div>
+                -->
+
+</body>
+
+</html>
