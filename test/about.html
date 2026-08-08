@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<style>
+    :root {
+        --sable: #0c0d10;
+        --sable-soft: #17191e;
+        --parchment: #f2ead9;
+        --parchment-deep: #e8dcc0;
+        --gules: #7c2430;
+        --or: #b9905a;
+        --or-bright: #d3ab72;
+        --ink: #2a251d;
+        --ink-soft: #55503f;
+        --hairline: rgba(185, 144, 90, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+        margin: 0;
+        background-color: var(--sable);
+        color: var(--parchment);
+        font-family: "EB Garamond", serif;
+    }
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 10px;
+        overflow: hidden;
+        background-color: var(--sable-soft);
+        border: 1px solid var(--hairline);
+        border-radius: 10px;
+    }
+
+    ul.topnav li { float: left; }
+
+    ul.topnav li a {
+        display: block;
+        color: var(--parchment);
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        transition: color 0.2s ease;
+    }
+
+    ul.topnav li a:hover:not(.active) { color: var(--or-bright); }
+    ul.topnav li a.active { color: var(--or-bright); }
+    ul.topnav li.right { float: right; }
+
+    ul.topnav li {
+        font-family: "Cinzel", serif;
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li { float: none; }
+    }
+
+    .hero {
+        padding: 64px 20px 56px;
+        text-align: center;
+        background:
+            radial-gradient(ellipse at 50% 0%, rgba(185,144,90,0.14), transparent 60%),
+            var(--sable);
+        border-bottom: 1px solid var(--hairline);
+    }
+
+    .hero img.crest {
+        width: 100%;
+        max-width: 180px;
+        margin: 0 auto 26px;
+        filter: drop-shadow(0 8px 24px rgba(0,0,0,0.55));
+    }
+
+    .hero .eyebrow {
+        font-family: "Cinzel", serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--or);
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-family: "Cinzel Decorative", "Cinzel", serif;
+        font-size: clamp(2.1rem, 6vw, 3.2rem);
+        margin: 0;
+        color: var(--parchment);
+        letter-spacing: 0.03em;
+    }
+
+    .page-body {
+        background: var(--parchment);
+        color: var(--ink);
+        padding: 70px 20px 90px;
+    }
+
+    .page-body .inner {
+        max-width: 680px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .page-body .eyebrow {
+        font-family: "Cinzel", serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--gules);
+    }
+
+    .page-body h2 {
+        font-family: "Cinzel Decorative", "Cinzel", serif;
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+        margin: 12px 0 34px;
+        color: var(--ink);
+    }
+
+    .page-body p {
+        font-size: 1.12rem;
+        line-height: 1.85;
+        color: var(--ink-soft);
+        margin: 0 0 22px;
+    }
+
+    .page-body a {
+        color: var(--gules);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(124, 36, 48, 0.35);
+    }
+
+    .page-body a:hover { border-bottom-color: var(--gules); }
+
+</style>
+
+<body>
+    <ul class="topnav">
+        <li class="left"><a href="index.html">Home</a></li>
+        <li class="right"><a class="active" href="#">About</a></li>
+        <li class="right"><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <section class="hero">
+        <div class="eyebrow">Staalbaek LTD</div>
+        <img class="crest" src="images/temp-logo SB Ltd.png" alt="Staalbaek LTD">
+        <h1>About</h1>
+    </section>
+
+    <section class="page-body">
+        <div class="inner">
+            <div class="eyebrow">The Company</div>
+            <h2>Our Story</h2>
+            <p>
+                Staalbaek Ltd was set up in October 2022 as the UK arm of the organisation
+                St&aring;lb&aelig;k Holding ApS, for the expansion of the platform
+                <a href="https://www.yourfootprint.uk">Your Footprint</a> &mdash; Europe's
+                most comprehensive CO2eq calculation tool for the agricultural sector.
+            </p>
+            <p>
+                Developed in conjunction with Denmark's first CO2eq beef farm,
+                <a href="http://www.staalbaek.dk">St&aring;lb&aelig;k G&aring;rd ApS</a>.
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>

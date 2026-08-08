@@ -1,0 +1,51 @@
+.bg {
+  background-color: #B3B3B3;
+  font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hest {
+  width: 300px;
+  height: auto;
+}
+
+.custom-m {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img-cen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.t-big {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.cus-i {
+  width: 20%;
+  height: auto;
+}
+
+.c-logo {
+  width: 30%;
+  height: auto;
+}
+
+.c-color {
+  color: black;
+}
+
+@media (min-width: 500px) {
+  .cus-align {
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .cus-align {
+    align-items: baseline;
+  }
+}
